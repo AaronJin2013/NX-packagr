@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "lib": {
+    "entryFile": "public_api.ts",
+    "externals": {
+      "primeng/primeng": "primeng",
+      "primeng/components/common/messageservice":
+        "primeng/components/common/messageservice",
+      "rxjs": "Rx",
+      "@nrwl/nx": "@nrwl/nx",
+      "@ngrx":"@ngrx",
+      "@ngrx/store":"@ngrx/store",
+      "@ngrx/store-devtools":"@ngrx/store-devtools",
+      "@ngrx/effects":"@ngrx/effects"
+    }
+  }
+}
